@@ -8,6 +8,8 @@ and returns info on the first found search results.
 Example search and description lookup
 
 LeaflySeach leaflyapi = new LeaflySearch();
+
 JSONObject result = leaflyapi.fechLeafly("White Widow");
+
 System.out.println(result.getDescriptionPlain(result));
  
